@@ -1,0 +1,381 @@
+@media screen and (max-width: 1500px) {
+
+    body {
+        margin: 0;
+        display: grid;
+        grid-template-rows: 170vh;
+        /* height: 540vh; */
+        font-family: Arial, sans-serif;
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+        color: white;
+        background-color: blue;
+        padding-left: 1%;
+        padding-top: 1%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tittle {
+        text-align: center;
+        padding-left: 45%;
+        padding-top: 1%;
+        width: 8%;
+        height: 5%;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .overtittle {
+        text-align: center;
+        width: 55%;
+        height: 10%;
+        padding-left: 21%;
+        margin-top: 5%;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    .fact {
+        font-size: 35px;
+        font-weight: bolder;
+        width: 60%;
+        height: 8%;
+        padding-left: 19%;
+        margin-top: 3%;
+    }
+
+    .image1 {
+        margin-top: 4%;
+        margin-left: 19%;
+        width: 60%;
+        height: 40%;
+    }
+
+    .littletext {
+        width: 60%;
+        height: 8%;
+        margin-top: 4.5%;
+        padding-left: 19%;
+        font-size: 19px;
+    }
+
+    .button1 {
+        margin-left: 44%;
+        margin-top: 2%;
+        background-color: white;
+        font-weight: bold;
+        width: 10%;
+        height: 3.5%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image2 {
+        width: 50%;
+        height: 100%;
+    }
+
+    .haptext {
+        width: 50%;
+        height: 100%;
+        text-align: left;
+        padding-top: 5%;
+        padding-left: 2%;
+        font-size: 19px;
+    }
+
+    .haptittle {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+
+    .hapmain {
+        margin-bottom: 10%;
+    }
+
+    .image3 {
+        width: 50%;
+        height: 100%;
+    }
+
+    .intext {
+        width: 50%;
+        height: 100%;
+        text-align: left;
+        padding-top: 5%;
+        padding-left: 2%;
+        font-size: 19px;
+    }
+
+    .intittle {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+
+    .inmain {
+        margin-bottom: 10%;
+    }
+
+    .image4 {
+        width: 50%;
+        height: 100%;
+    }
+
+    .latext {
+        width: 50%;
+        height: 100%;
+        text-align: left;
+        padding-top: 5%;
+        padding-left: 2%;
+        font-size: 19px;
+    }
+
+    .latittle {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+
+    .lamain {
+        margin-bottom: 10%;
+    }
+
+    .happening {
+        margin-top: 5%;
+        width: 60%;
+        height: 20%;
+        padding-left: 20%;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .intrique {
+        margin-top: 3%;
+        width: 60%;
+        height: 20%;
+        padding-left: 20%;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .latest {
+        margin-top: 3%;
+        width: 60%;
+        height: 20%;
+        padding-left: 20%;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .button2 {
+        margin-top: 2%;
+        color: white;
+        background-color: blue;
+        font-weight: bold;
+        width: 10%;
+        height: 3.5%;
+        margin-left: 46%;
+        margin-top: 5%;
+    }
+
+    .footer {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(242, 238, 238);
+        height: 60vh;
+    }
+
+    .logos {
+        margin-top: 3%;
+        margin-left: 46%;
+        width: 40%;
+        height: 5%;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .logos img {
+        width: 25px;
+        height: 25px;
+        margin-right: 6%;
+    }
+
+
+    .foottext {
+        margin-top: 2%;
+        margin-left: 2%;
+        text-align: center;
+    }
+
+    .com {
+        margin-bottom: 2%;
+        font-size: 20px;
+    }
+
+    .city {
+        width: 6.5%;
+        margin-left: 47%;
+        line-height: 2;
+    }
+
+    .DMI {
+        margin-left: 48%;
+        margin-top: 1%;
+        font-size: 45px;
+        font-weight: bolder;
+        color: gainsboro;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        display: grid;
+        grid-template-rows: 150vh;
+        /* height: 540vh; */
+        font-family: Arial, sans-serif;
+    }
+
+    .header {
+        padding-left: 0;
+        padding-top: 2%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .tittle {
+        padding-left: 0;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .overtittle {
+        width: 90%;
+        font-size: 32px;
+        padding-left: 0;
+        margin-top: 3%;
+    }
+
+    .fact {
+        font-size: 24px;
+        width: 90%;
+        padding-left: 0;
+        margin-top: 2%;
+    }
+
+    .image1 {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .littletext {
+        width: 90%;
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .button1 {
+        width: 50%;
+        height: auto;
+        margin: 2% auto;
+        margin-top: 20%;
+    }
+
+    .button2 {
+        width: 50%;
+        height: auto;
+        margin: 2% auto;
+    }
+
+    .happening {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .intrique {
+        margin-top: 60%;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .latest {
+        margin-top: 15%;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .image2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .haptext {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .intext {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .latext {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .logos {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .footer {
+        margin-top: 30%;
+    }
+
+    .foottext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .city {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .DMI {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
