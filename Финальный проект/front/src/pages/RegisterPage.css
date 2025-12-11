@@ -1,0 +1,62 @@
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  color: #888;
+  border-bottom: 2px solid transparent;
+}
+
+.step.active {
+  color: #575757;
+  border-color: #575757;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea { resize: vertical; }
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  background: #575757;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #575757;
+}
+
+.error {
+  color: #d93025;
+  margin-bottom: 15px;
+}

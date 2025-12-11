@@ -1,0 +1,92 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+h2 {
+
+  margin-bottom: 1rem;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.tabs button {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  border-radius: 4px 4px 0 0;
+}
+.tabs button.active {
+  background: white;
+  border-bottom: 1px solid white;
+}
+.tab-content {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: white;
+  border-radius: 0 4px 4px 4px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+th {
+  background: #f9f9f9;
+}
+.error {
+  color: red;
+}
+.inprogress .invite-block {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.review-form {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+  background: #fafafa;
+  padding: 0.8rem;
+  border-radius: 4px;
+}
+.review-form div {
+  display: flex;
+  flex-direction: column;
+}
+.review-form label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.review-form input,
+.review-form select,
+.review-form textarea {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.review-form button {
+  width: fit-content;
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background: #575757;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.review-form button[type='button'] {
+  background: #aaa;
+}
