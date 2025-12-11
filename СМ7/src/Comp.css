@@ -1,0 +1,22 @@
+.Component {
+    margin-left: 45vh;
+    margin-top: 30vh;
+    width: 120vh;
+    height: 120vh;
+    text-align: center;
+    font-size: 40px;
+}
+
+.body_content {
+    height: 90%;
+    border: 2px solid blue;
+}
+
+.header-content {
+    height: 10%;
+    border: 2px solid blue;
+}
+
+.Element {
+    border: 2px solid blue;
+}
