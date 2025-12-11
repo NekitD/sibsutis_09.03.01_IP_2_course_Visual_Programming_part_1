@@ -1,0 +1,6 @@
+Скачивание нужных пакетов:
+dotnet add package Npgsql
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+
+Путь в SQL до таблицы:
+Comments/Schemas/Tables/comments -> View/Edit Data -> AllRows
